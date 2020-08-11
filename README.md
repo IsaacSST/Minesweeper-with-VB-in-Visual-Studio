@@ -3,12 +3,12 @@ Minesweeper reverse engineered from scratch with login and highscore features, b
 ## Downloading and launching the program:
 To download the game just download the MinesweeperProject.exe file in the base directory. This file appears in the /MinesweeperProject/MinesweeperProject/bin/Debug/ directory upon compiling, but I copied it to the base directory for ease of access.
 Most likely the browser will attempt to block the download and operating system will warn you against opening as it is an untrusted exe file. If you really want to play you will have to go into advanced options and bypass these warnings.
-The entire game is encompassed in the .exe file; no installation is necessary.
+The entire game is encompassed in the .exe file; no installation is necessary. When run the .exe will create Help.txt, Highscores.txt, and UserLoginRecord.txt files in whichever directory it is located.
 ## Playing the game:
 ### Navigation:
 
 To play the game, you must first log in. You can do this by entering your username and password in the main menu and pressing the Log in button
-if the account already exists, or the create account button if the account does not yet exist.
+if the account already exists, or the create account button if the account does not yet exist (Note account passwords are stored in plaintext in the UserLoginRecord.txt file, so it's advisable to use a throwaway password if you want to be completely safe; the account feature is really just there to tick a box on the A level mark scheme).
 This will bring you to a Landing page where you should press the new game button.
 Then you will be asked to state the dimensions of the game board. As the board is always a square, only one number is needed.
 This should be a whole number between 10 and 40 but if you enter a decimal, the program will round it down.
