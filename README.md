@@ -8,7 +8,7 @@ The entire game is encompassed in the .exe file; no installation is necessary. W
 ### Navigation:
 
 To play the game, you must first log in. You can do this by entering your username and password in the main menu and pressing the Log in button
-if the account already exists, or the create account button if the account does not yet exist (Note account passwords are stored in plaintext in the UserLoginRecord.txt file, so it's advisable to use a throwaway password if you want to be completely safe; the account feature is really just there to tick a box on the A level mark scheme).
+if the account already exists, or the create account button if the account does not yet exist (Note account passwords are stored locally in plaintext in the UserLoginRecord.txt file, so it's advisable to use a throwaway password if you want to be completely safe; the account feature is really just there to tick a box on the A level mark scheme).
 This will bring you to a Landing page where you should press the new game button.
 Then you will be asked to state the dimensions of the game board. As the board is always a square, only one number is needed.
 This should be a whole number between 10 and 40 but if you enter a decimal, the program will round it down.
