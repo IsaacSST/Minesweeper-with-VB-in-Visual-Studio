@@ -35,4 +35,4 @@ The restart button contains a yellow face, and when clicked will reset the game.
 ### Scoring:
 
 The scoring of the game depends on how long it takes for the user to beat the game, therefore the lower the score, the better.
-If they lose by triggering a mine, they have no score.
+If they lose by triggering a mine, they have no score. The scoring also depends on board size, so the naturally longer time it takes to complete a larger board is offset and there can be universal competition across all board sizes, ie the score is designed to be a reflection purely of the player's minesweeping performance in a particular game without regard for board size.
